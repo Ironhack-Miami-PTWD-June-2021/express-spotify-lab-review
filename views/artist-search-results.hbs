@@ -1,0 +1,11 @@
+<h2>Results</h2>
+
+<div class="query-results-container">
+    {{#each blah}}
+    <div class="query-results-box">
+        <h5>{{this.name}}</h5>
+        <img src={{images.[0].url}} alt="Artist">
+        <a href="/albums/{{id}}">{{name}} Albums</a>
+    </div>
+    {{/each}}
+</div>

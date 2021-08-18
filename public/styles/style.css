@@ -1,0 +1,29 @@
+body {
+    background-color: green;
+}
+
+nav {
+    margin-bottom: 3rem;
+}
+
+.query-results-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.query-results-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    border: 2px solid orange;
+    width: 10rem;
+}
+
+.query-results-box img {
+    height: 8rem;
+}
